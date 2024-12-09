@@ -1,0 +1,164 @@
+p
+
+{
+     color: brown;
+}
+p
+
+{
+     color: red;
+     font-size: 12pt;
+     font-family: Helvetica, Courier New, San Serif, Arial
+}
+
+body
+
+{
+    color: blue;
+    background-color: red;
+    background-image: url("obrazek.jpg");
+}
+img
+
+{
+     content: url("zagle.jpg");
+
+     width: 400px;
+
+
+     border: 10px;
+     border-color: blue;
+     border-style: dashed;
+}
+
+strona.html
+
+<p id = "tytul">
+     Sport w życiu człowieka
+</p>
+styl.css
+
+#id 
+
+{
+     font-size: 18pt;
+     font-weight: bold;
+}
+
+styl.css
+
+.small
+
+{
+     font-size: 9pt;
+     font-style: italic;
+}
+strona.html
+
+<p class="small">Tekst małą czcionką</p>
+styl.css
+
+p.small
+
+{
+     font-size: 9pt;
+}
+
+p.red
+
+{
+     color: red;
+}
+strona.html
+
+<p class="small">Tekst małą czcionką.</p>
+
+<p class="red">Tekst wyświetlany w czerwonym kolorze.</p>
+
+styl.css
+
+.small
+
+{
+     font-size: 9pt;
+}
+
+.red
+
+{
+     color: red;
+}
+strona.html
+
+<p class="small red">Tekst małą czcionką</p>
+
+strona.html
+
+<ul>
+     <li>
+          <p>Element listy</p>
+     </li>
+</ul>
+styl.css
+
+li p 
+
+{
+     color: red;
+     font-size: 11pt;
+}
+*
+
+{
+     color: blue;
+}
+p, h1, li
+
+{
+     color: orange;
+}
+
+ul li a
+
+{
+     color: orange;
+     
+}
+
+
+img
+
+{
+   content: url("zdjecie.jpg");
+}
+
+<body>
+   <img />
+</body>
+
+#rys1
+
+{
+   content: url("zdjecie1.jpg");
+}
+
+#rys2
+
+{
+   content: url("zdjecie2.jpg");
+}
+
+<body>
+   <img />
+</body>
+<link rel="stylesheet" href="styl1.css" id="importstylu">
+
+function importcss()
+
+{
+     const element-link-css = document.getElementById("importstylu");
+
+
+
+
+
